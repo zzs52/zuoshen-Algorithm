@@ -1,7 +1,7 @@
 package 基础入门.class02;
 
 /**
- * Desc:快排3.0(时间复杂度为O(N * logN))
+ * Desc:快排3.0(时间复杂度为O(N * logN)，空间复杂度算期望结果为O(logN))
  * 从数组中随机选择partition的划分值
  * @author zzs
  * @date 2022/3/21 21:28
