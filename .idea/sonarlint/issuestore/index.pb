@@ -50,3 +50,13 @@ g
 7src/基础入门/class04/Code02_SmallerEqualBigger.java,d\3\d3a538067fe27386b931ce9947e4c8c1899cf53a
 g
 7src/基础入门/class04/Code03_CopyListWithRandom.java,2\a\2aa63161c88c161e678f0bb55d8c231cb75f788a
+P
+ src/基础入门/class05/node.md,b\4\b49c901a797dddfa32e8562607d0e5a2d90a11e9
+a
+1src/基础入门/class05/Code04_TreeMaxWidth.java,1\1\11b29f775e5bd901b967b58055cdd819e8e077b8
+d
+4src/基础入门/class05/Code03_PrintBinaryTree.java,f\2\f262fda5d2d2fb234b1e0ec31fb3f8d0c9c8281f
+f
+6src/基础入门/class05/Code02_PreInPosTraversal.java,9\e\9ee334fcc6cd811ad378ddfa1cbdbde299bac7f5
+k
+;src/基础入门/class05/Code01_FindFirstIntersectNode.java,a\7\a78b86a545b42b50aa3d6ac14c220fd7daa0be6d
