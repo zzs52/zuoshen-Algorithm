@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 
 /**
- * Desc:图中给定一个点，求这个点到其他所有点的最小路径(不适用成环且环的和为负数的图)
+ * Desc:图中给定一个点，求这个点到其他所有能到达的点的最小路径(不适用成环且环的和为负数的图)
  * @author zzs
  * @date 2022/3/26 15:11
  */
@@ -137,6 +137,7 @@ public class Code06_Dijkstra {
         }
     }
 
+    // 第二种算法，需要改写堆
     public static HashMap<Node, Integer> dijkstra2(Node head, int size) {
         NodeHeap nodeHeap = new NodeHeap(size);
         nodeHeap.addOrUpdateOrIgnore(head, 0);
