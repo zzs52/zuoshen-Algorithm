@@ -67,7 +67,7 @@ public class Problem04_ParenthesesDeep {
             if (chas[i] == ')') {
                 pre = i - dp[i - 1] - 1;
                 if (pre >= 0 && chas[pre] == '(') {
-                    dp[i] = dp[i - 1] + 2 + (pre > 0 ? dp[pre - 1] : 0);
+                    dp[i] = dp[i - 1] + 1 + (pre > 0 ? dp[pre - 1] : 0);
                 }
             }
             res = Math.max(res, dp[i]);
