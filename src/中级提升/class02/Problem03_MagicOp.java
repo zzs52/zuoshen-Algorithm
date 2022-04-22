@@ -56,7 +56,7 @@ public class Problem03_MagicOp {
         int ops = 0;
         for (int i = 0; i < arrMore.length; i++) {
             double cur = (double) arrMore[i];
-            if (cur < avg(moreSum, arrMore.length) && cur > avg(lessSum, arrLess.length) && !set.contains(arrMore[i])) {
+            if (cur < avg(moreSum, moreSize) && cur > avg(lessSum, lessSize) && !set.contains(arrMore[i])) {
                 moreSum -= cur;
                 moreSize--;
                 lessSum += cur;
