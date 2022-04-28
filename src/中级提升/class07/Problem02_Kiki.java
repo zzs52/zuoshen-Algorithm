@@ -13,10 +13,10 @@ public class Problem02_Kiki {
         if (pre > limitCoin) {
             return Integer.MAX_VALUE;
         }
-        if (aim < 0) {
+        if (cur < 0) {
             return Integer.MAX_VALUE;
         }
-        if (aim > limitAim) {
+        if (cur > limitAim) {
             return Integer.MAX_VALUE;
         }
         if (aim == cur) {
