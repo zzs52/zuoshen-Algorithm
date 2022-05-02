@@ -28,8 +28,6 @@ public class Code07_SerializeAndDeSerializeBinaryTree {
         if (head == null) {
             return "#_";
         }
-        serialByPre(head.left);
-        serialByPre(head.right);
         String result = head.value + "_";
         result += serialByPre(head.left);
         result += serialByPre(head.right);
