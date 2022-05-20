@@ -48,8 +48,7 @@ public class Code02_IsCBT {
             }
             if (r != null) {
                 queue.offer(r);
-            }
-            if (l == null && r == null) {
+            } else {
                 leaf = true;
             }
         }
